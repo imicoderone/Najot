@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PackageId>Najot</PackageId>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <Description>Najot is a library for different UIs like Console etc.</Description>
+    <PackageIcon>Logo.png</PackageIcon>
+    <PackageTags>Console;UI;Najot</PackageTags>
+    <Copyright>Copyright (c) &lt;JohnFize/Najot&gt;&lt;2022&gt;</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\Desktop\Logo.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
